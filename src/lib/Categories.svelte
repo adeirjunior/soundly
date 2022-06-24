@@ -14,7 +14,7 @@
         list-style: none;
         padding-top: 2em;
         display: grid;
-        grid-template-columns: repeat(2, 120px);
+        grid-template-columns: repeat(2, 110px);
         gap: 1em;
         margin-block-start: 0;
         place-content: center;
@@ -31,7 +31,7 @@
         cursor: pointer;
         color: #D7D7D7;
         border: 2px solid #D7D7D7;
-        padding: .75em 2em;
+        padding: .6em 1.75em;
         -webkit-tap-highlight-color: rgba(0,0,0,0);
     }
     ul li button:active {

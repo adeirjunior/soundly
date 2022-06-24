@@ -8,6 +8,21 @@
 <Header />
 <main>
   <Categories />
-  <Card />
+  <div class="grid">
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+  </div>
 </main>
 <Footer />
+
+<style>
+ main .grid {
+  place-content: center;
+  display: grid;
+  gap: 1.5em;
+  padding: 2.5em 0;
+ }
+</style>
